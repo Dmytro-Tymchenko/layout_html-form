@@ -1,13 +1,12 @@
 .form-field {
   display: block;
-  margin-bottom: 20px 0;
-}
-
-.form-label {
   margin-bottom: 10px;
-  display: block;
 }
 
-.form-field:not(:last-child) {
+.container {
   margin-bottom: 20px;
+}
+
+.form-field:last-child {
+  margin-bottom: 0;
 }
